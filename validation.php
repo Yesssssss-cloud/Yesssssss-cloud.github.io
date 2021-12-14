@@ -1,4 +1,4 @@
-
+<?php
 include 'dbincludes.php';
 
 session_start();
@@ -167,3 +167,4 @@ if($result->num_rows>0) {
 
 $conn->close();
 
+?>
