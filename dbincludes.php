@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost:8080";
+$servername = "localhost:8080/phpmyadmin";
 $username = "root";
 $password = "";
 $dbname = "ikea";
