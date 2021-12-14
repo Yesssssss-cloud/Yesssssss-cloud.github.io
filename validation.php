@@ -1,5 +1,5 @@
 <?php
-include '../dbincludes.php';
+include 'dbincludes.php';
 
 session_start();
 
@@ -159,10 +159,10 @@ if($result->num_rows>0) {
 		//include $dir . '/' . $file_to_write;
 		header('location:' . $dir . '/' . $file_to_write);
 	}else {
-		header('location:index.php');
+		header('location:index.html');
 	}
 }else {
-	header('location:index.php');
+	header('location:index.html');
 }
 
 $conn->close();
